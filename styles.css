@@ -4,7 +4,6 @@
 }
 
 body {
-  width: 100vw;
   background-color: #0B5454;
   height: 90vh;
   display: grid;
@@ -63,6 +62,10 @@ a {
   text-decoration-color: #1f93ff;
 }
 
+a, p {
+  font-size: 15px;
+}
+
 @media only screen and (max-width: 544px) {
   .container {
     max-width: 400px;
@@ -81,7 +84,7 @@ a {
 
 @media only screen and (max-width: 435px) {
   .container {
-   max-width: 100%;
+   max-width: 390px;
   }
 
   .Time {
