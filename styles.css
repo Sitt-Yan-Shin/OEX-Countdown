@@ -52,6 +52,16 @@ h2 {
   color: #000;
 }
 
+.text {
+  grid-column: span 4;
+  text-align: center;
+}
+
+a {
+  color: #C8CACF;
+  text-decoration-color: #1f93ff;
+}
+
 @media only screen and (max-width: 544px) {
   .container {
     max-width: 400px;
