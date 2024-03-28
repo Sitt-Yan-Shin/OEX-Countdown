@@ -4,6 +4,7 @@
 }
 
 body {
+  width: 100vw;
   background-color: #0B5454;
   height: 90vh;
   display: grid;
@@ -80,7 +81,7 @@ a {
 
 @media only screen and (max-width: 435px) {
   .container {
-   max-width: 390px;
+   max-width: 100%;
   }
 
   .Time {
