@@ -6,7 +6,7 @@ const toMoon = document.querySelector(".to-moon");
 const h2 = document.getElementsByTagName("h2")[0]; // Assuming there's only one h2 element
 const boxes = document.querySelectorAll(".box"); // Assuming there's only one element with the class 'box'
 
-const date = new Date("March 31, 2024 19:08"); // 9:00 PM
+const date = new Date("March 31, 2024 19:55"); // 9:00 PM
 
 const myInterval = setInterval(UpdateTime, 1000);
 
