@@ -5,10 +5,9 @@ const seconds = document.querySelector(".Time--seconds");
 const toMoon = document.querySelector(".to-moon");
 const h2 = document.getElementsByTagName("h2")[0]; // Assuming there's only one h2 element
 const boxes = document.querySelectorAll(".box"); // Assuming there's only one element with the class 'box'
+const text = document.querySelector(".text");
 
-const date = new Date("March 31, 2024 19:55"); // 9:00 PM
-
-const myInterval = setInterval(UpdateTime, 1000);
+const date = new Date("March 31, 2024 20:10"); // 9:00 PM
 
 function UpdateTime() {
   const now = new Date();
@@ -28,8 +27,9 @@ function UpdateTime() {
     clearInterval(myInterval);
     boxes.forEach(box => {
       box.classList.add("box2");
-      h2.innerHTML = "To the Moon"
-      h2.classList.add("to-the-moon")
+      h2.classList.add("box2");
+      text.innerHTML = "\"To the Moon🚀\""
+      text.classList.add("to-the-moon")
     })
     confetti({
       particleCount: 300,
@@ -37,3 +37,5 @@ function UpdateTime() {
     })
   }
 }
+
+const myInterval = setInterval(UpdateTime, 1000);
