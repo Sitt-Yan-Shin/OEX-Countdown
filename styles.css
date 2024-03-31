@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #0B5454;
+  background-color: #0b5454;
   height: 90vh;
   display: grid;
   justify-content: center;
@@ -15,21 +15,22 @@ body {
 .container {
   margin: auto 20px;
   width: 600px;
-  height: 40%;
+  height: 30%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0.7em;
   padding: 1em;
   border-radius: 5px;
-  background-color: #1A3E73;
+  background-color: #1a3e73;
   font-family: sans-serif;
   color: whitesmoke;
   font-size: 1.4em;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
   text-align: center;
-  background-color: #C8CACF;
+  background-color: #c8cacf;
   border-radius: 5px;
 }
 
@@ -41,7 +42,7 @@ body {
 
 .unit {
   font-size: 15px;
-  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 h2 {
@@ -50,12 +51,9 @@ h2 {
   font-weight: bold;
 }
 
-.Time, .unit {
+.Time,
+.unit {
   color: #000;
-}
-
-.box2 {
-  display: none;
 }
 
 .text {
@@ -67,48 +65,44 @@ h2 {
 }
 
 a {
-  color: #C8CACF;
+  color: #c8cacf;
   text-decoration-color: #1f93ff;
 }
 
-p, a {
+p,
+a {
   font-size: 15px;
+}
+
+.box2 {
+  display: none;
 }
 
 .to-the-moon {
   font-size: 50px;
 }
 
-@media only screen and (max-width: 544px) {
+@media only screen and (max-width: 430px) {
   .container {
-    max-width: 400px;
-    font-size: 1.5em;
+    max-width: 300px;
+    gap: 15px;
+  }
+
+  .box {
+    max-width: 60px;
+    max-height: 100px;
   }
 
   .Time {
-    font-size: 35px;
-  }
-
-  .unit {
-    font-size: 15px;
-    padding-bottom: 10px;
-  }
-
-  .to-the-moon {
-    font-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 435px) {
-  .container {
-   max-width: 390px;
-  }
-
-  .Time {
+    padding: 15px;
     font-size: 1em;
   }
 
+  .text {
+    max-height: 30px;
+  }
+
   .to-the-moon {
-    font-size: 15px;
+    font-size: 25px;
   }
 }
