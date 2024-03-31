@@ -9,11 +9,13 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
+  font-size: large;
 }
 
 .container {
-  margin: auto;
-  max-width: 500px;
+  margin: auto 20px;
+  width: 600px;
+  height: 40%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.7em;
@@ -52,9 +54,16 @@ h2 {
   color: #000;
 }
 
+.box2 {
+  display: none;
+}
+
 .text {
   grid-column: span 4;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -62,8 +71,12 @@ a {
   text-decoration-color: #1f93ff;
 }
 
-a, p {
+p, a {
   font-size: 15px;
+}
+
+.to-the-moon {
+  font-size: 50px;
 }
 
 @media only screen and (max-width: 544px) {
@@ -80,6 +93,10 @@ a, p {
     font-size: 15px;
     padding-bottom: 10px;
   }
+
+  .to-the-moon {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 435px) {
@@ -89,5 +106,9 @@ a, p {
 
   .Time {
     font-size: 1em;
+  }
+
+  .to-the-moon {
+    font-size: 20px;
   }
 }
