@@ -9,7 +9,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url(Makoto-Yuki.png);
+  background-image: url(./images/Makoto-Yuki.png);
   background-size: cover;
   background-position: center;
 }
@@ -91,7 +91,7 @@ a {
 
 @media only screen and (max-width: 430px) {
   body {
-    background-image: url(p1.webp);
+    background-image: url(./images/p1.webp);
   }
 
   .container {
