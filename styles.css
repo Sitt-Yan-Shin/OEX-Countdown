@@ -91,7 +91,7 @@ a {
 
 @media only screen and (max-width: 430px) {
   body {
-    background-image: url(./images/p2.jpg);
+    background-image: url(./images/cyber-girl.jpeg);
   }
 
   .container {
@@ -101,7 +101,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 15px 15px;
-    transform: translate(-175px, -70px);
+    transform: translate(-175px, 100px);
   }
 
   h2 {
