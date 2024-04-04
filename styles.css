@@ -16,7 +16,7 @@ body {
 
 .container {
   width: 600px;
-  height: 40%;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(4, 1.2fr);
   gap: 0.3em;
@@ -71,6 +71,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 p {
@@ -89,7 +90,7 @@ p {
   width: 100px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  transform: translateX(235px);
+  transform: translateX(213px);
   grid-column: span 4;
   gap: 10px;
 }
@@ -98,6 +99,7 @@ img {
   width: 60px;
   height: 60px;
   object-fit: cover;
+  border-radius: 50px;
 }
 
 @media only screen and (max-width: 430px) {
@@ -107,7 +109,7 @@ img {
 
   .container {
     width: 350px;
-    height: 40%;
+    height: auto;
     gap: 15px;
     justify-content: center;
     align-items: center;
@@ -138,7 +140,7 @@ img {
   }
 
   .logo {
-    transform: translateX(120px);
+    transform: translateX(107px);
     gap: 5px;
   }
 
