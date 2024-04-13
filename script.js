@@ -7,7 +7,7 @@ const h2 = document.getElementsByTagName("h2")[0]; // Assuming there's only one 
 const boxes = document.querySelectorAll(".box"); // Assuming there's only one element with the class 'box'
 const text = document.querySelector(".text");
 
-const date = new Date("April 13, 2024 9:00 PM"); // 9:00 PM
+const date = new Date("April 13, 2024 14:30"); // 9:00 PM
 
 function UpdateTime() {
   const now = new Date();
